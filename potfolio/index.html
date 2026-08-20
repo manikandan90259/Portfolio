@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manikandan R — Web Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="topbar__mark">MR<span>.</span></div>
+  <nav class="topbar__nav" aria-label="Primary">
+    <a href="#sheet-01">01 Elevation</a>
+    <a href="#sheet-02">02 Projects</a>
+    <a href="#sheet-03">03 Certification</a>
+    <a href="#sheet-04">04 Contact</a>
+  </nav>
+  <button class="topbar__menu" id="menuToggle" aria-expanded="false" aria-controls="topbar__nav" aria-label="Toggle navigation">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+  <section class="sheet" id="sheet-01">
+    <div class="sheet__frame">
+      <p class="sheet__tag">SHEET 01 / 04 — ELEVATION</p>
+
+      <h1 class="hero__name">MANIKANDAN R</h1>
+      <p class="hero__role">Web Developer <span class="dim">—</span> building interfaces from the ground plan up</p>
+      <p class="hero__desc">I design, develop and build web interfaces, then take them apart to understand how every piece fits — like reading a set of drawings before laying the first brick. Currently sharpening HTML, CSS and JavaScript through hands‑on projects and certification.</p>
+
+      <div class="hero__actions">
+        <a href="#sheet-02" class="btn btn--primary">View projects <i>→</i></a>
+        <button class="btn btn--ghost" id="resumeBtn" type="button"><a href="resume/Resume.pdf" target="_blank">Check resume</a></button>
+      </div>
+    </div>
+
+    <div class="titleblock">
+      <div class="titleblock__row">
+        <span>DRAWN BY</span><strong>M. R</strong>
+      </div>
+      <div class="titleblock__row">
+        <span>SCALE</span><strong>1 : 1</strong>
+      </div>
+      <div class="titleblock__row">
+        <span>SHEET</span><strong>01 OF 04</strong>
+      </div>
+      <div class="titleblock__row">
+        <span>REV</span><strong id="revYear"></strong>
+      </div>
+    </div>
+  </section>
+
+  <section class="sheet" id="sheet-02">
+    <p class="sheet__tag">SHEET 02 / 04 — PROJECTS</p>
+    <h2 class="sheet__title">Assignment</h2>
+
+    <div class="schematic">
+      <div class="schematic__diagram">
+       <!--<div class="calc">
+          <div class="calc__display">128</div>
+          <div class="calc__grid">
+            <button>7</button><button>8</button><button>9</button><button class="op">÷</button>
+            <button>4</button><button>5</button><button>6</button><button class="op">×</button>
+            <button>1</button><button>2</button><button>3</button><button class="op">−</button>
+            <button>0</button><button>.</button><button class="eq">=</button><button class="op">+</button>
+          </div>
+        </div>
+
+        <svg class="callouts" viewBox="0 0 460 380" aria-hidden="true">
+
+          <line x1="230" y1="60" x2="340" y2="20" />
+          <line x1="150" y1="150" x2="40" y2="130" />
+          <line x1="330" y1="230" x2="430" y2="250" />
+        </svg>
+
+        <span class="callout callout--a">display · live result</span>
+        <span class="callout callout--b">number pad · 0–9</span>
+        <span class="callout callout--c">operator column · + − × ÷</span>
+      </div>
+
+      <div class="schematic__notes">
+        <h3>Project 01 — Responsive calculator</h3>
+        <p>A working calculator built from scratch with plain HTML, CSS and JavaScript — no libraries. Focus areas: keyboard‑safe input handling, a responsive grid that holds its shape on any screen, and clear visual hierarchy between digits and operators.</p>
+        <ul class="specs">
+          <li><span>Stack</span><strong>HTML · CSS · JS</strong></li>
+          <li><span>Layout</span><strong>CSS Grid</strong></li>
+          <li><span>Status</span><strong>Complete</strong></li>
+        </ul>
+      
+        <a href="#" class="btn btn--ghost btn--sm">View source <i>→</i></a>
+      </div> -->
+
+      <article class="plate">
+        <a href="#" target="_blank" class="plate__stamp">VERIFIED</a>
+        <h3>Responsive Calculator</h3>
+        <p>HTML CSS JS</p>
+      </article>
+
+      <article class="plate">
+        <a href="#" target="_blank" class="plate__stamp">VERIFIED</a>
+        <h3>Best Android Applicatin 
+          ( 5 projects )
+        </h3>
+        <p>java xmp</p>
+      </article>
+
+      <article class="plate">
+        <a href="#" target="_blank" class="plate__stamp">VERIFIED</a>
+        <h3>Workshop Registration</h3>
+        <p>React.js</p>
+      </article>
+
+      <article class="plate">
+        <a href="#" target="_blank" class="plate__stamp">VERIFIED</a>
+        <h3>Recipe Search Filter
+          (API-Based)
+        </h3>
+        <p>React.js</p>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="sheet" id="sheet-03">
+    <p class="sheet__tag">SHEET 03 / 04 — CERTIFICATION</p>
+    <h2 class="sheet__title">Approved plates</h2>
+    <p class="sheet__lede">Coursework completed and verified — each plate stamped on completion.</p>
+
+    <div class="plates">
+      <article class="plate">
+         <a href="certification\eCertificate (1).pdf" target="_blank" class="plate__stamp">VERIFIED</a>
+        <h3>Oracle Certified Foundations Associate</h3>
+        <p>Oracle</p>
+      </article>
+      <article class="plate">
+         <a href="certification\IBMDesign20250731-31-3b3zrq.pdf" target="_blank" class="plate__stamp">VERIFIED</a>
+        <h3>Web Development Fundamentals</h3>
+        <p>IBM</p>
+      </article>
+      
+      <article class="plate">
+         <a href="certification\UNM-Internship on React App Development_Download your certificate here.pdf" target="_blank" class="plate__stamp">VERIFIED</a>
+        <h3>Internship on React App Development</h3>
+        <p>Eduvate | Oracle</p>
+      </article>
+      <article class="plate">
+         <a href="certification\NM_Certificate.pdf" target="_blank" class="plate__stamp">VERIFIED</a>
+        <h3>Front End Web Development</h3>
+        <p>Edunet Foundation</p>
+      </article>
+    </div>
+
+    <button class="btn btn--primary" id="resumeBtn2" type="button">Check resume 2 <i>→</i></button>
+  </section>
+
+  <section class="sheet" id="sheet-04">
+    <p class="sheet__tag">SHEET 04 / 04 — CONTACT</p>
+    <h2 class="sheet__title">Get in touch</h2>
+    <p class="sheet__lede">Send a message and I'll get back to you.</p>
+
+    <form class="form" id="contactForm" novalidate>
+      <div class="field">
+        <label for="f-username">Name</label>
+        <input type="text" id="f-username" name="username" autocomplete="name" required>
+        <span class="field__error" id="err-username"></span>
+      </div>
+      <div class="field">
+        <label for="f-email">Email</label>
+        <input type="email" id="f-email" name="email" autocomplete="email" required>
+        <span class="field__error" id="err-email"></span>
+      </div>
+      <div class="field">
+        <label for="f-message">Message</label>
+        <textarea id="f-message" name="message" rows="4" required></textarea>
+        <span class="field__error" id="err-message"></span>
+      </div>
+      <button type="submit" class="btn btn--primary">Send message <i>→</i></button>
+      <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>Manikandan R</span>
+  <span>Web Developer</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
